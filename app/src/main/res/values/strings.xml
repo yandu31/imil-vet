@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">ImilVET</string>
+
+    <!-- Strings of activity_main -->
+    <string name="imgLogoDescription">Logo de la empresa</string>
+    <string name="btnPacientes">Pacientes</string>
+    <string name="btnCamara">Tomar Fotos</string>
+    <string name="btnGaleria">Galería</string>
+    <string name="btnMusicaOn">Activar musica</string>
+    <string name="btnMusicaOff">Detener música</string>
+
+    <!-- Strings of activity_datos_pacientes -->
+    <string name="btnInsertar">Insertar datos del paciente</string>
+    <string name="btnConsultar">Consultar datos del paciente</string>
+    <string name="btnModificar">Modificar datos del paciente</string>
+    <string name="btnEliminar">Eliminar datos del paciente</string>
+    <string name="btnBackToMain">Volver al inicio</string>
+
+    <!-- Strings of activity_camara -->
+    <string name="btnAbrirCam">Abrir Camara</string>
+
+    <!-- Strings of activity_galeria -->
+    <string name="scrollViewGaleria">Scroll View con fotos de la galeria</string>
+    <string name="imageText">Imagen de mascota</string>
+</resources>
