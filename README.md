@@ -1,6 +1,6 @@
 # Imil Vet
 
-This is a mock Android Application to practice the following concepts:
+This is a test Android Application to practice the following concepts:
 - Background sonds/music
 - Implementing embedded database
 - Working with camera/gallery
