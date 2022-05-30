@@ -8,7 +8,7 @@ This is a test Android Application to practice the following concepts:
 ## Installation
 Clone this repository and import into **Android Studio**
 ```bash
-git clone git@github.com:yandu31wolox/imil-vet.git
+git clone git@github.com:yandu31/imil-vet.git
 ```
 
 ## Maintainers
