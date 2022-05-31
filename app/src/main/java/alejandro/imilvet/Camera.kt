@@ -5,17 +5,22 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
 
-class Camara : AppCompatActivity() {
+class Camera : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_camara)
     }
 
-    /** Called when the user taps the abrirCam button */
+    /**
+     * Opens the device's camera
+     */
     fun openCam( view: View ) {
+        // TODO
     }
 
-    /** Called when the user taps the BackToMain button */
+    /**
+     * Brings forward the main activity
+     */
     fun goToMain( view: View) {
         val intent = Intent(this, MainActivity::class.java)
         startActivity(intent)

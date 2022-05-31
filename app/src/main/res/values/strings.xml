@@ -2,24 +2,24 @@
     <string name="app_name">ImilVET</string>
 
     <!-- Strings of activity_main -->
-    <string name="imgLogoDescription">Logo de la empresa</string>
-    <string name="btnPacientes">Pacientes</string>
-    <string name="btnCamara">Tomar Fotos</string>
-    <string name="btnGaleria">Galería</string>
-    <string name="btnMusicaOn">Activar musica</string>
-    <string name="btnMusicaOff">Detener música</string>
+    <string name="imgLogoDescription">Company logo</string>
+    <string name="btnPatients">Patients</string>
+    <string name="btnCamera">Camera</string>
+    <string name="btnGallery">Gallery</string>
+    <string name="btnMusicOn">Activate music</string>
+    <string name="btnMusicOff">Stop music</string>
 
-    <!-- Strings of activity_datos_pacientes -->
-    <string name="btnInsertar">Insertar datos del paciente</string>
-    <string name="btnConsultar">Consultar datos del paciente</string>
-    <string name="btnModificar">Modificar datos del paciente</string>
-    <string name="btnEliminar">Eliminar datos del paciente</string>
-    <string name="btnBackToMain">Volver al inicio</string>
+    <!-- Strings of activity_patient-data -->
+    <string name="btnInsert">Insert patient data</string>
+    <string name="btnConsult">Consult patient data</string>
+    <string name="btnModify">Modify patient data</string>
+    <string name="btnDelete">Delete patient data</string>
+    <string name="btnBackToMain">Back to main</string>
 
-    <!-- Strings of activity_camara -->
-    <string name="btnAbrirCam">Abrir Camara</string>
+    <!-- Strings of activity_camera -->
+    <string name="btnOpenCam">Open camera</string>
 
-    <!-- Strings of activity_galeria -->
-    <string name="scrollViewGaleria">Scroll View con fotos de la galeria</string>
-    <string name="imageText">Imagen de mascota</string>
+    <!-- Strings of activity_gallery -->
+    <string name="scrollViewGallery">Display of gallery images</string>
+    <string name="imageText">Image of a pet</string>
 </resources>

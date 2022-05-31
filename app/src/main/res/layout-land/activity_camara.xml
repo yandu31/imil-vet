@@ -4,13 +4,13 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Camara">
+    tools:context=".Camera">
 
     <Button
-        android:id="@+id/btnAbrirCam"
+        android:id="@+id/btnOpenCam"
         android:layout_width="220dp"
         android:layout_height="85dp"
-        android:text="@string/btnAbrirCam"
+        android:text="@string/btnOpenCam"
         android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -27,10 +27,10 @@
         android:text="@string/btnBackToMain"
         android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="@+id/btnAbrirCam"
+        app:layout_constraintEnd_toEndOf="@+id/btnOpenCam"
         app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="@+id/btnAbrirCam"
-        app:layout_constraintTop_toBottomOf="@+id/btnAbrirCam"
+        app:layout_constraintStart_toStartOf="@+id/btnOpenCam"
+        app:layout_constraintTop_toBottomOf="@+id/btnOpenCam"
         app:layout_constraintVertical_bias="0.6" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

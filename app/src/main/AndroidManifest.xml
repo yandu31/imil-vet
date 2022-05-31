@@ -11,13 +11,13 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ImilVET">
         <activity
-            android:name="alejandro.imilvet.Galeria"
+            android:name="alejandro.imilvet.Gallery"
             android:exported="false" />
         <activity
-            android:name="alejandro.imilvet.Camara"
+            android:name="alejandro.imilvet.Camera"
             android:exported="false" />
         <activity
-            android:name="alejandro.imilvet.DatosPacientes"
+            android:name="alejandro.imilvet.PatientData"
             android:exported="false" />
         <activity
             android:name="alejandro.imilvet.MainActivity"

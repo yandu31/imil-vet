@@ -5,13 +5,17 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
 
-class Galeria : AppCompatActivity() {
+class Gallery : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_galeria)
+
+        // TODO
     }
 
-    /** Called when the user taps the BackToMain button */
+    /**
+     * Brings forward the main activity
+     */
     fun goToMain( view: View) {
         val intent = Intent(this, MainActivity::class.java)
         startActivity(intent)

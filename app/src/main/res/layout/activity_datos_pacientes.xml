@@ -4,37 +4,37 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".DatosPacientes">
+    tools:context=".PatientData">
 
     <Button
-        android:id="@+id/btnInsertar"
+        android:id="@+id/btnInsert"
         android:layout_width="220dp"
         android:layout_height="85dp"
-        android:text="@string/btnInsertar"
+        android:text="@string/btnInsert"
         android:textSize="18sp"
-        app:layout_constraintBottom_toTopOf="@+id/btnModificar"
-        app:layout_constraintEnd_toEndOf="@+id/btnModificar"
-        app:layout_constraintStart_toStartOf="@+id/btnModificar"
+        app:layout_constraintBottom_toTopOf="@+id/btnModify"
+        app:layout_constraintEnd_toEndOf="@+id/btnModify"
+        app:layout_constraintStart_toStartOf="@+id/btnModify"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.322" />
 
     <Button
-        android:id="@+id/btnConsultar"
+        android:id="@+id/btnConsult"
         android:layout_width="220dp"
         android:layout_height="85dp"
-        android:text="@string/btnConsultar"
+        android:text="@string/btnConsult"
         android:textSize="18sp"
-        app:layout_constraintBottom_toTopOf="@+id/btnModificar"
-        app:layout_constraintEnd_toEndOf="@+id/btnModificar"
+        app:layout_constraintBottom_toTopOf="@+id/btnModify"
+        app:layout_constraintEnd_toEndOf="@+id/btnModify"
         app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="@+id/btnModificar"
-        app:layout_constraintTop_toBottomOf="@+id/btnInsertar" />
+        app:layout_constraintStart_toStartOf="@+id/btnModify"
+        app:layout_constraintTop_toBottomOf="@+id/btnInsert" />
 
     <Button
-        android:id="@+id/btnModificar"
+        android:id="@+id/btnModify"
         android:layout_width="220dp"
         android:layout_height="85dp"
-        android:text="@string/btnModificar"
+        android:text="@string/btnModify"
         android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -42,16 +42,16 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/btnAbrirCam"
+        android:id="@+id/btnOpenCam"
         android:layout_width="220dp"
         android:layout_height="85dp"
-        android:text="@string/btnEliminar"
+        android:text="@string/btnDelete"
         android:textSize="18sp"
         app:layout_constraintBottom_toTopOf="@+id/btnBackToMain"
-        app:layout_constraintEnd_toEndOf="@+id/btnModificar"
+        app:layout_constraintEnd_toEndOf="@+id/btnModify"
         app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="@+id/btnModificar"
-        app:layout_constraintTop_toBottomOf="@+id/btnModificar" />
+        app:layout_constraintStart_toStartOf="@+id/btnModify"
+        app:layout_constraintTop_toBottomOf="@+id/btnModify" />
 
     <Button
         android:id="@+id/btnBackToMain"
@@ -61,10 +61,10 @@
         android:text="@string/btnBackToMain"
         android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="@+id/btnModificar"
+        app:layout_constraintEnd_toEndOf="@+id/btnModify"
         app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="@+id/btnModificar"
-        app:layout_constraintTop_toBottomOf="@+id/btnModificar"
+        app:layout_constraintStart_toStartOf="@+id/btnModify"
+        app:layout_constraintTop_toBottomOf="@+id/btnModify"
         app:layout_constraintVertical_bias="0.66" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

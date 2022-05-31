@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Galeria">
+    tools:context=".Gallery">
 
     <Button
         android:id="@+id/btnBackToMain"
@@ -21,10 +21,10 @@
         app:layout_constraintVertical_bias="0.975" />
 
     <ScrollView
-        android:id="@+id/scrollViewGaleria"
+        android:id="@+id/scrollViewGallery"
         android:layout_width="409dp"
         android:layout_height="628dp"
-        android:contentDescription="@string/scrollViewGaleria"
+        android:contentDescription="@string/scrollViewGallery"
         app:layout_constraintBottom_toTopOf="@+id/btnBackToMain"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
